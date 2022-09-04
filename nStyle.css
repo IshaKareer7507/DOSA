@@ -1,0 +1,92 @@
+nav .logo img{
+    margin: 0px 10px;
+    height: 90px;
+  }
+.news{   
+    background-color:rgb(242, 155, 155);
+ }
+ .news .main h2{
+     font-size: 50px;
+ }
+ .news .content{
+     flex-wrap: wrap;
+     font-size: 2.8rem;
+     display: flex;
+
+ }
+ .news .content .frame{
+
+     position: relative;
+     width: 500px;
+     padding: 30px 30px 40px 30px;
+     box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+     margin: 20px 129px;
+     background: rgb(167, 162, 162);
+ }
+ .news .content .frame .box{
+     position: relative;
+     height: 300px;
+     width: 50;
+     overflow: hidden;
+
+ }
+ .news .content .frame .box img{
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     filter: grayscale(1);
+     object-fit: cover;
+     transition: 0.2s ease-in;
+ }
+ .news .content .frame .box:hover img{
+     filter: grayscale(0);
+     transform: scale(1.08);
+ }
+ .news .content .frame .headline{
+     font-size: 1.8rem;
+     display:grid;
+     justify-content: space-between;
+     align-items: center;
+     margin: 8px 0px;
+ }
+ .news .content .frame .headline i{
+     height: 22px;
+     width: 22px;
+     border: 1.5px solid white;
+     border-radius: 50%;
+     text-align: center;
+     font-size: 1.8rem;
+     margin-right: 5px;
+     cursor: pointer;
+     line-height: 22px;
+ }
+ .news .content .frame .headline i:hover{
+     border: 1.5px solid var(--prime);
+     background: var(--prime);
+ }
+ .news .content .frame .headline .title{
+     color: var(--prime);
+     font-size: 2.8rem;
+ }
+ .news  .content .frame p{
+     font-size: 20px;
+     position: relative;
+     bottom: 5px;
+ }
+ .news  .content .frame a{
+     top: 30px;
+     color:  var(--prime);
+     background: transparent;
+     padding: 10px 40px;
+     border: 1.5px solid var(--prime);
+     border-radius: 5px;
+     text-decoration: none;
+     position: relative;
+     text-transform: capitalize;
+     transition: 0.2s ease;
+     font-size: 1.8rem;
+ }
+ .news content .frame a:hover{
+     color: white;
+     background: var(--prime);
+ }

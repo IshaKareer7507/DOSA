@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="tStyle.css">
+    <script src="script.js" rel="JavaScript.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="/img/logo.png">
+          </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="location.html">Location</a>
+            <a href="about.html">About</a>
+            <a href="news.html">News</a>
+            <a href="gallery.html">Gallery</a>
+          </div>
+      </nav>
+      <center>
+      <section class="formarea" id="formarea">
+        <form action="#" class="form" onsubmit="return validation()">
+          <p class="para">
+            <span class="chnging"></span><br>
+          </p>
+          <label>  Name </label><br>
+          <input type="text" placeholder="Enter your name" title="name" id="name" required>
+          <p id="name_error" class="formerror"></p><br><br>
+            
+          <label> Date of Birth </label><br>
+          <input type="date" placeholder="Enter birth date" title="date" id="date" required><br><br>
+          
+          <label> Email </label><br>
+          <input type="Email" placeholder="example@gmail.com"  title="mail" id="email" required>
+          <p id="email_error" class="formerror"></p><br><br>
+      
+          <label>Gender</label><br>
+          <input type="radio" id="gender" name="gender" value="Male" required>Male
+          <input type="radio" id="gender" name="gender" value="Female" required>Female<br><br>
+  
+          <label >your current weight</label><br>
+          <input type="text" name="current wght" placeholder="current wght" id="current wght"><br><br>
+
+         
+          <label >Height</label><br>
+          <input type="text" name="hght" placeholder="hght" id="hght"><br><br>
+  
+          <label >Age</label><br>
+          <input type="text" placeholder="Age" title="Age"  name="Age" id="age" required><br><br>
+      
+          <label >Phone Number</label><br>
+          <input type="text" placeholder="XXXXXXXXXX" title="number" name="phone" id="phone"required>
+          <p id="phone_error" class="formerror"></p><br></br>
+  
+          <h2>Address Details</h2><br>
+  
+              <label>Address</label><br>
+              <input type="text" placeholder="Address" title="address" name="address" id="address" required><br></br> 
+         
+              <label>Nationality</label><br>
+              <input type="text" placeholder="nationality" title="nationality" name="nationality" id="nationality"required><br></br>
+              
+              <label>State</label><br>
+              <input type="text" placeholder="state" title="state" name="state" id="state"required><br></br> 
+      
+              <label>District</label><br>
+              <input type="text" placeholder="district" title="district" id="district" name="district"required><br></br> 
+      
+              <label>City</label><br>
+              <input type="text" placeholder="city" title="city" name="city" id="city"required><br></br> 
+      
+              <h2>More Details</h2><br>
+
+              <label>Medical condition</label><br>
+              <input type="text" placeholder="medical condition" name="medical" id="medical"required><br><br>
+      
+              
+      
+              <h2>Declaration</h2><br>
+              <p>The above information provided by me is true to the best of my knowledge. I understand and agree that I shall be liable for strict action to be taken against me for entering any wrong information .</p><br><br>
+      
+              <label>Date</label><br>
+              <input type="date" name="date" required><br><br>
+  
+              <label>Signature</label><br>
+              <input type="text" name="signature" required><br><br>
+      
+              <input type="submit" value="Submit Details"> 
+        </form>
+      </section>
+    </center>
+    
+    
+      <footer class="footer">
+        <p>
+          ABOUT: ONLY FOR MEDICAL PURPOSE...!!
+          <br>Made BY ACHIEVERS
+        </p>
+      </footer>
+
+</body>
+</html>
